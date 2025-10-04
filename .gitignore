@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# IDE / Editor specific
+.vscode/
+.idea/
+
+# Database file
+app.db
+*.sqlite3
+
+# Secret environment variables
+# THIS IS THE MOST IMPORTANT LINE
+.env
+
+# Uploads folder (for PDF resources, etc.)
+uploads/
+
+# OS specific
+.DS_Store
+Thumbs.db
